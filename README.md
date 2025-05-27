@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/tKcyw2x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After installing the osTicket files I opened file explorer and unzipped the files into a file folder by right clicking and extracting all the necessary files to a folder and dragging the folder onto the desktop
+After installing the osTicket files, open file explorer and unzip the files into a file folder by right clicking and extracting all the necessary files to a folder and dragging the folder onto the desktop.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ After installing the osTicket files I opened file explorer and unzipped the file
 <img src="https://i.imgur.com/bPL6EEK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Navigate to the control panel and access the windows features, once there click on internet information services -> world wide web services -> application development features -> CGI and apply the update to the windows system
+Navigate to the control panel and access the windows features, once there click on internet information services -> world wide web services -> application development features -> CGI and apply the update to the windows system.
 </p>
 <br />
 
