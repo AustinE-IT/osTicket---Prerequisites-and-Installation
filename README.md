@@ -24,9 +24,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Download and install osTicket files and unzip it onto your desktop
 - Install internet information services (IIS) 
-- Item 3
-- Item 4
-- Item 5
+- Install PHP manager for IIS
+- Install the rewrite module 
+- Create a new folder within C:\ named "PHP"
+- Unzip PHP folder into C:\PHP
+- Install VC_redist.x86.exe
+- Install mysql-5.5.62-win32.msi
 
 <h2>Installation Steps</h2>
 
@@ -47,9 +50,58 @@ Navigate to the control panel and access the windows features, once there click 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ACKhPBp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open the osTicket-installation-file folder and download the PHP manager.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/V51e5gQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Proceed to download the rewrite module within the folder. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/oAujVSh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open the C:\ and create a new folder titled "PHP".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/uVSbYcz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From inside of the osticket-installation-folder unzip the PHP folder into the C:\PHP by extracting all of the files.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/phGClPm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install VC_redist.x86.exe from within osTicket-installation-file folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ELR9FEY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Prior to installing mysql-5.5.62-win32.msi ensure the typical option is chosen before proceeding to install.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/39zRu1s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Following the installation of the mysql-5.5.62-win32.msi file launch the configuration and be sure to choose standard configuration. Proceed to the username and password screen and imput "root" exactly as shown for both the username and paswword, then execute and finish the configuration.
+</p>
+<br />
+
