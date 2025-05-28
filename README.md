@@ -30,6 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Unzip PHP folder into C:\PHP
 - Install VC_redist.x86.exe
 - Install mysql-5.5.62-win32.msi
+- Activate PHP from within IIS
 
 <h2>Installation Steps</h2>
 
@@ -102,6 +103,14 @@ Prior to installing mysql-5.5.62-win32.msi ensure the typical option is chosen b
 </p>
 <p>
 Following the installation of the mysql-5.5.62-win32.msi file launch the configuration and be sure to choose standard configuration. Proceed to the username and password screen and imput "root" exactly as shown for both the username and paswword, then execute and finish the configuration.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/zB05MeM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open IIS and navigate to the PHP manager tab, once there register a new PHP version by going to the C:\PHP and selecting php-cgi.exe to activate it. Stop and restart the server to ensure the necessary changes were made.
 </p>
 <br />
 
