@@ -114,3 +114,10 @@ Open IIS and navigate to the PHP manager tab, once there register a new PHP vers
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/bgPI8uL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From within the osTicket-installation-file unzip osTicket-v1.15.8 and copy the upload folder into the c:\inetpub\wwwroot and rename the upload folder to "osTicket". Following that, open IIS and proceed to stop and start the server to update the chages that were made.
+</p>
+<br />
