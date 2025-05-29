@@ -127,6 +127,13 @@ From within the osTicket-installation-file unzip osTicket-v1.15.8 and copy the u
 </p>
 <p>
 Inside of IIS, on the left side of the screen navigate to Sites -> Default Web Site -> osTicket. On the right side of the screen click on Browse *:80 and notice there are some features not enabled.
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/VqGZwxZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside of IIS, on the left side of the screen navigate to Sites -> Default Web Site -> osTicket. On the right side of the screen click on Browse *:80 and notice there are some features not enabled.
 </p>
 <br />
