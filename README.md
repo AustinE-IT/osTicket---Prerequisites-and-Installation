@@ -121,3 +121,12 @@ Open IIS and navigate to the PHP manager tab, once there register a new PHP vers
 From within the osTicket-installation-file unzip osTicket-v1.15.8 and copy the upload folder into the c:\inetpub\wwwroot and rename the upload folder to "osTicket". Following that, open IIS and proceed to stop and start the server to update the chages that were made.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/en64Wox.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside of IIS, on the left side of the screen navigate to Sites -> Default Web Site -> osTicket. On the right side of the screen click on Browse *:80 and notice there are some features not enabled.
+
+</p>
+<br />
