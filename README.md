@@ -6,10 +6,6 @@
 This guide provides a step-by-step overview of the requirements and installation process for setting up the open-source help desk ticketing system, osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -31,6 +27,11 @@ This guide provides a step-by-step overview of the requirements and installation
 - Install VC_redist.x86.exe
 - Install mysql-5.5.62-win32.msi
 - Activate PHP from within IIS
+- Install osTicket v1.15.8
+- Enable features that are required for osTicket within ISS
+- Rename ost-config.php and assign new permissions
+- Install HeidiSQL and create a new database titled "osTicket"
+- Finish setting up osTicket in browser and fill in correct database settings and click install
 
 <h2>Installation Steps</h2>
 
