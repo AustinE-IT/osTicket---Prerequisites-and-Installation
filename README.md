@@ -169,3 +169,11 @@ Finish setting up osTicket within the browser and when arriving at the database 
 Make a connection with the database by clicking "New" and inserting "root" into both the username and password to create and connect to the session. Right click "Unnamed" and create a new database named "osTicket"
 </p>
 <br />
+
+<p>
+<img src=https://i.imgur.com/IvYnfIH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finish setting up osTicket in the browser by filling in the database settings that were just created. Imput "osTicket" in the MySQL Database, and "root" for both the MySQL username and password, then click install.
+</p>
+<br />
