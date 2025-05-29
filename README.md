@@ -153,3 +153,11 @@ Inside file explorer, navigate to C:\inetpub\wwwroot\osTicket\include and rename
 Go to the properties inside of ost-config.php, under security tab click advanced and disable and remove all inheritance permissions. Create a new permission and allow everyone to have full control.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/LlpNbMs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finish setting up osTicket within the browser and when arriving at the database settings navigate back to the osTicket-installation-files and install HeidiSQL.
+</p>
+<br />
