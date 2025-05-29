@@ -135,7 +135,14 @@ Inside of IIS, on the left side of the screen navigate to Sites -> Default Web S
 </p>
 <p>
 In IIS, go back to Sites -> Default Web Site -> osTicket and click on PHP manager then click enable or disable an extension. Enable php_imap.dll, php_intl.dll, and php_opcache.dll. Refresh the osTicket site in the browser and notice the changes made.
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/PTEZ7V2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside file explorer, navigate to C:\inetpub\wwwroot\osTicket\include and rename "ost-sampleconfig.php" to "ost-config.php".
 
 
 </p>
