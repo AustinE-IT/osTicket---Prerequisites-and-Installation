@@ -161,3 +161,11 @@ Go to the properties inside of ost-config.php, under security tab click advanced
 Finish setting up osTicket within the browser and when arriving at the database settings navigate back to the osTicket-installation-files and install HeidiSQL.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/2AIliMz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Make a connection with the database by clicking "New" and inserting "root" into both the username and password to create and connect to the session. Right click "Unnamed" and create a new database named "osTicket"
+</p>
+<br />
