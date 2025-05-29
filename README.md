@@ -143,7 +143,13 @@ In IIS, go back to Sites -> Default Web Site -> osTicket and click on PHP manage
 </p>
 <p>
 Inside file explorer, navigate to C:\inetpub\wwwroot\osTicket\include and rename "ost-sampleconfig.php" to "ost-config.php".
+</p>
+<br />
 
-
+<p>
+<img src="https://i.imgur.com/SXeW3lP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to the properties inside of ost-config.php, under security tab click advanced and disable and remove all inheritance permissions. Create a new permission and allow everyone to have full control.
 </p>
 <br />
